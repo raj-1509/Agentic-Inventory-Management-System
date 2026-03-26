@@ -1,0 +1,18 @@
+[
+  {
+    "input": "Show items with price greater than 1000",
+    "output": "SELECT * FROM inventory WHERE price > 1000"
+  },
+  {
+    "input": "Get all items with price less than 2000",
+    "output": "SELECT * FROM inventory WHERE price < 2000"
+  },
+  {
+    "input": "Find products with low stock",
+    "output": "SELECT * FROM inventory WHERE quantity < threshold"
+  },
+  {
+    "input": "Show all laptops",
+    "output": "SELECT * FROM inventory WHERE name LIKE '%Laptop%'"
+  }
+]
