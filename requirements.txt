@@ -1,0 +1,10 @@
+transformers
+torch
+datasets
+peft
+accelerate
+sqlalchemy
+chromadb
+sentence-transformers
+fastapi
+uvicorn

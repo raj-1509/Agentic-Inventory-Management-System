@@ -1,0 +1,8 @@
+#version: "3.9"
+
+services:
+  inventory-agent:
+    build: .
+    container_name: inventory-agent
+    ports:
+      - "8000:8000"
